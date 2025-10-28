@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380c4420f445a5a4fb9b443044c53d04, type: 3}
+  m_Name: Demo Dialogue
+  m_EditorClassIdentifier: 
+  IsReplayable: 1
+  Conditions:
+  - Name: BeenOnPodium
+    Value: 0
+  InterruptionReactions:
+  - Wait!
+  - I'm not finished!
+  DialogueReentry:
+  - At last!
+  - So what was I... Oh yeah
+  ForgetMeNots: []
+  Sentences:
+  - Speaker: 1
+    Variants:
+    - Condition:
+        ConditionName: BeenOnPodium
+        ConditionRule: 0
+        ConditionValue: 1
+      Text: Have you got a quest for me?
+    IsInterruptable: 0
+  - Speaker: 0
+    Variants:
+    - Condition:
+        ConditionName: BeenOnPodium
+        ConditionRule: 2
+        ConditionValue: 1
+      Text: Great you have been to the podium already
+    - Condition:
+        ConditionName: Normal
+        ConditionRule: 2
+        ConditionValue: 0
+      Text: Yes, you should head to the podium and come back
+    IsInterruptable: 0
+  - Speaker: 1
+    Variants:
+    - Condition:
+        ConditionName: BeenOnPodium
+        ConditionRule: 2
+        ConditionValue: 1
+      Text: Right... So that's it for the demo :)
+    - Condition:
+        ConditionName: Normal
+        ConditionRule: 2
+        ConditionValue: 0
+      Text: On it!
+    IsInterruptable: 0

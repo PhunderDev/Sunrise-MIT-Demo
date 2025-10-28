@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f631c92d771a5594091ef7f07968e08b, type: 3}
+  m_Name: Scene 1
+  m_EditorClassIdentifier: 
+  Scene:
+    sceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
+    sceneName: Test Env 1
+  Entries:
+  - {fileID: 2825389941270752785}
+--- !u!114 &2825389941270752785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2cae21d1c6e7945a6f2b053a2ab322, type: 3}
+  m_Name: Right Entry
+  m_EditorClassIdentifier: 
+  EntryName: Right Entry
+  ExitReference:
+    SceneHandler: {fileID: 11400000, guid: 9d3fc2892c7bbb140b78dd6576a7ee8b, type: 2}
+    SceneEntry: {fileID: 2895373557174745236, guid: 9d3fc2892c7bbb140b78dd6576a7ee8b, type: 2}
+  Direction: {x: -1, y: 0}
+  WorldPosition: {x: 34.47, y: 2.51}

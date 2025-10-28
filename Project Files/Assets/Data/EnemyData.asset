@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e8d3e5b73c8b3439a52d36b1bf3461, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  CollisionRaycastLayers:
+    serializedVersion: 2
+    m_Bits: 4224
+  VerticalChecksWidth: 0.95
+  MinGroundAndCeilingDistance: 0.05
+  SlopeCheckRaycastLength: 0.5
+  ViewDistance: 0
+  ViewAngle: 0
+  TerminalVelocity: 0
+  MinRestTime: 5
+  MaxRestTime: 10
+  PatrolAcceleration: 6
+  PatrolSpeed: 2
+  ChaseAcceleration: 1
+  ChaseSpeed: 8
+  AttackStats: []

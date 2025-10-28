@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4b9fbee302f2c4da1f51a53b98be63, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  CollisionRaycastLayers:
+    serializedVersion: 2
+    m_Bits: 3763
+  MaxDistanceForWallContact: 0.01
+  WallCheckHeight: 0.75
+  MaxWallDistanceForLedgeGrab: 0.2
+  LedgeGrabFreeSpaceCheckHeight: 0.3
+  LedgeGrabOccupiedSpaceCheckHeight: 0.1
+  MinGroundAndCeilingDistance: 0.05
+  SlopeCheckRaycastLength: 0.5
+  VerticalChecksWidth: 0.95
+  HorizontalAcceleration: 35
+  HorizontalDeceleration: 20
+  ForcedDeceleration: 35
+  HorizontalAirAcceleration: 25
+  HorizontalAirDeceleration: 10
+  JumpGravityMultiplier: 0.6
+  JumpCutoffHeight: 1.5
+  LowJumpHeight: 2.5
+  HighJumpHeight: 4
+  DashVelocity: 17.5
+  DashTime: 0.6
+  DashCooldown: 0.3
+  MaxHorizontalVelocity: 10
+  TerminalVelocity: 20
+  MaxSlopeAngle: 60
+  WallSlideEntryVelocity: 3
+  MaxYVelocityToEnterWallSlide: 0
+  WallSlideGravity: 5
+  WallSlideTerminalVelocity: 10
+  WallJumpVelocity: {x: 15, y: 15}
+  LedgeClimbVelocities: {x: 2, y: 2}
+  LedgeClimbTargetOffsets: {x: 1, y: 2}
+  RopeEnterAndExitTimeMargin: 0.25
+  MinDistanceFromRopeAnchor: 2
+  MaxRopeLength: 8
+  MaxRopeAngle: 80
+  MaxRopeAngleForAscentAndDescent: 5
+  RopeAscentAndDescentSpeed: 2
+  RopePassiveDeceleration: 4
+  RopeActiveAcceleration: 12
+  RopeBoostedAcceleration: 16
+  RopePeriodCoefficient: 2
+  RopeJumpMultiplier: 0.1
+  BaseVaultingVelocity: 3
+  SlideColliderHeight: 1.5
+  MaxCombo: 2
+  AttackChainMargin: 0.25
+  AttackStats:
+  - Damage: 50
+    AttackHitboxRelativePosition: {x: 1.5, y: 0}
+    AttackHitboxSize: 1
+    AttackHitbox: {fileID: 0}
+    DebugColor: {r: 1, g: 0.36836088, b: 0, a: 1}
+  - Damage: 75
+    AttackHitboxRelativePosition: {x: 1.5, y: -0.3}
+    AttackHitboxSize: 1.5
+    AttackHitbox: {fileID: 0}
+    DebugColor: {r: 1, g: 0, b: 0.40356064, a: 1}
+  AttackMovementSpeedFactor: 0.7
+  ShurikenSpawnOffset: {x: 1.25, y: 0.3}
+  ShurikenSpeed: 15
+  ThrowingShurikenMovementFactor: 1
+  ShurikenMaxDistanceFromPlayer: 20
+  CoyoteTime: 0.1
+  LedgeClimbDelay: 0.25
+  LedgeToWallSlideDelay: 0.3
+  TimeInWallSlideToWallJump: 0.25
+  WallJumpMovementDelay: 0.1
