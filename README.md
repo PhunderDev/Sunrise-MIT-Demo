@@ -7,5 +7,5 @@ This is a demo version of the upcoming game called Sunrise. The point of this de
 ### **E** - Use/Interact
 ### **Shift** - Dash/Slide
 
-The dialogue action script can be found at: Project Files/Assets/Scripts/DialogueAction.cs
-The Custom Dialogue Editor can be found at: Project Files/Assets/Editor/DialogueEditor.cs
+#### The dialogue action script can be found at: Project Files/Assets/Scripts/DialogueAction.cs
+#### The Custom Dialogue Editor can be found at: Project Files/Assets/Editor/DialogueEditor.cs
